@@ -15,6 +15,7 @@ import 'package:flutter/foundation.dart'
 ///   options: DefaultFirebaseOptions.currentPlatform,
 /// );
 // ```
+// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -52,9 +53,9 @@ class DefaultFirebaseOptions {
 //   projectId: '',
 //   databaseURL: '',
 //   storageBucket: '',
-//  );
-//
-// static const FirebaseOptions ios = FirebaseOptions(
+  //);
+
+ static const FirebaseOptions ios = FirebaseOptions(
 //   apiKey: '',
 //   appId: '',
 //   messagingSenderId: '',
@@ -62,6 +63,6 @@ class DefaultFirebaseOptions {
 //   databaseURL: '',
 //   storageBucket: '',
 //   iosClientId: '',
-//   iosBundleId: 'sheridan.tudballr.flush',
-//);
-}
+//   iosBundleId: '',
+ //);
+//}
